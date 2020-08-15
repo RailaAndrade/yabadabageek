@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish';
+    font-size: 0.8rem;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding:0 2rem;
+    background-color:#363732;
+    color:#e74c3c!important;
+    border-top: 5px solid #e74c3c ;
+    padding:5vh 2vw;
+    
+}
+
+footer a {
+    color:#e74c3c!important;
+}
+

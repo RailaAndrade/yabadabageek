@@ -1,0 +1,77 @@
+.header{
+   font-family: 'Mulish';
+   font-size: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    background-color:#e67e22;
+    color:#363732;
+  
+}
+
+.flex{
+    display: flex;
+}
+.logo{
+    /*font-family:'Permanent Marker';*/
+    font-family: 'Bangers';
+    display: flex;    
+    align-items: center;
+    justify-content:flex-start;
+}
+.logo img{
+    /*margin-right:10px;*/
+    width: 75px;
+    height: 90px;
+   
+
+}
+
+
+.header-links ul li{
+    margin-left:1rem ;
+    list-style-type: none;
+
+
+  
+}
+
+
+/* unvisited link */
+header a:link {
+    color:#363732;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  header a:visited {
+    color:#363732;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  header a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  
+
+
+  @media only screen and (max-width: 500px) {
+    /*shows elements in a column*/
+     header ul{
+      flex-direction: column;
+    }
+    
+    /* deletes margin on top or bottom of the a tag*/
+    header li{
+      margin: 0;
+    }
+   /* makes sure that the a tag will take the entire screen*/
+   header a{
+      display: block;
+    }
+
+
+
+  }

@@ -1,0 +1,36 @@
+.tools{
+  background-color: #363732;
+  display: flex;
+  padding: 10vh 0;
+  height: 100vh;
+}
+
+.martingale{
+  border-radius: 20px;
+  padding: 20%;
+  background-color:#2980b9;
+  margin-left: 5vw;
+  font-family: 'Mulish';
+  font-weight: bold;
+  font-size:2rem;
+  color:#363732;
+
+}
+
+.tools a:link {
+  color:#363732;
+  text-decoration: none;
+}
+  
+  /* visited link */
+.tools a:visited {
+  color:#363732;
+  text-decoration: none;
+}
+  
+  
+.tools a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+  
